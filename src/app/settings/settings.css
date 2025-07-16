@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Calibri:wght@400;600&display=swap');
+
+:host, body{
+  display: block;
+  height: 100vh;
+  background-color: #000;   /* fondo negro */
+  color: #fff;              /* texto blanco */
+  font-family: 'Calibri';
+}
+
+.settings-container {
+  padding: 1.5rem 2rem;      /* espacios laterales */
+}
+
+.settings-title {
+  margin-top: 0rem;     /* 32px de espacio arriba */
+  margin-bottom: 1.5rem;/* opcional: espacio debajo */
+  font-size: 2.5rem;    /* ajústalo a tu gusto */
+  font-weight: 600;
+}
+
+/* Búsqueda */
+.search-box {
+  position: relative;
+  margin: 1.5rem 0rem;         /* separa la caja de otros elementos */
+  padding-right: 3.5rem;       /* Deixem mes espai per la dreta */
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.6rem 2.5rem 0.6rem 1rem;  /* espacio para el icono a la derecha */
+  border: 1px solid #444;              /* borde gris oscuro */
+  border-radius: 4px;
+  background-color: #222;              /* gris muy oscuro */
+  color: #fff;                         /* texto claro */
+  font-size: 1rem;
+}
+
+.search-input::placeholder {
+  color: #888;                         /* placeholder gris claro */
+}
+
+/* Sección de usuario */
+.user-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.profile-name {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.profile-status {
+  display: block;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.qr-button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.avatar-option {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 0.8rem;
+  cursor: pointer;
+}
+
+.avatar-icon {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  color: #888;
+}
+
+.avatar-text {
+  flex: 1;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.chevron {
+  font-size: 1rem;
+  color: #888;
+}

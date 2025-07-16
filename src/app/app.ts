@@ -4,7 +4,7 @@ import { Settings } from './settings/settings';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Settings],
+  imports: [Settings],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
